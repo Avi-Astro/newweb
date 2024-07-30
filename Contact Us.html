@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Contact Us</title>
+<link rel="styleesheet" type="text/css" href="style.css">
+<style>
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'time', sans-serif;}
+html { 
+  background: url(file:///E:/Aviraj/New%20Web/Images/home.jpg) no-repeat center fixed; 
+  background-size: cover;}
+
+.contact {
+	position: relative;
+	min-height: 100vh;
+	padding: 50px 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;}
+.contact .content {
+	max-wodth: 800px;
+	text-align: center;}
+.contact .content h2 {
+	font-size: 36px;
+	font-weight:500;
+	color: #000;}
+.contact .content p {
+	font-weight:300;
+	color: #000;}
+
+.container {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px; }
+.container .contactInfo {
+	width: 100%;
+	display: flex;
+	flex-direction: column; }
+.container .contactInfo .box {
+	position: relative;
+	padding: 20px 0;
+	dispaly:flex; }
+.container .contactInfo .box .text {
+	display: flex;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #000;
+	flex-direction: column;
+	font-weight: 300; }
+.container .contactInfo .box .text h3 {
+	font-weight: 500;
+	color: #000; }
+.contactForm {
+	width: 40%;
+	padding: 40px;
+	background: #fff; }
+.contactForm h2 {
+	font-size: 30px;
+	color: #000;
+	font-weight: 500; }
+.contactForm .inputBox {
+	position: relative;	
+	width: 100%;
+	margin-top: 10px; }
+.contactForm .inputBox input,
+.contactForm .inputBox textarea {
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	resixe: none; }
+
+</style>
+</head>
+<body>
+	<section class="contact">
+		<div class="content">
+			<h2>Contact us</h2>
+			<p>Just send us your questions or concerns by starting a new case and we will give you the help you need.</p>
+		</div>
+		<div class="container">
+			<div class="contactInfo">
+				<div class="box">
+					<div class="text">
+						<h3>Address</h3>
+						<p>11 & 12 AMEYA APART MENT, </br>SAMARTH NAGAR, BHOSLA GROUND,</br> NASHIK - 422005.</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="text">
+						<h3>Phone</h3>
+						<p>9860358084</p>
+					</div>
+				</div>
+				<div class="box">
+					<div class="text">
+						<h3>Email</h3>
+						<p>avirajambekar@gmail.com</p>
+					</div>
+				</div>
+			</div>
+			<div class="contactForm">
+				<form>
+					<h2>Send Message</h2>
+					<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span>Full Name</span>
+					</div>
+					<div class="inputBox">
+						<input type="text" name="" required="required">
+						<span>Email</span>
+					</div>
+					<div class="inputBox">
+						<textarea required="required"></textarea>
+						<span>Type Your Message...</span>
+					</div>
+					<div class="inputBox">
+						<input type="submit" name="" value="send">
+					</div>
+				</form>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
